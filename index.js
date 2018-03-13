@@ -13,4 +13,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
    return arr1
  }
  
- function destructivelyDeleteFromObjectByKey()
+ function destructivelyDeleteFromObjectByKey(object, key) {
+  return delete object.key
+  
+ }
