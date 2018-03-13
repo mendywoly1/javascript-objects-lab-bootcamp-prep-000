@@ -12,3 +12,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
    var arr1  = delete object.key;
    return arr1
  }
+ 
+ function 
